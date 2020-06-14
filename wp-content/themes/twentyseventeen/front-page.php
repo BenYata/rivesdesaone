@@ -47,6 +47,7 @@ get_header(); ?>
 			for ( $i = 1; $i < ( 1 + $num_sections ); $i++ ) {
 				$twentyseventeencounter = $i;
 				twentyseventeen_front_page_section( null, $i );
+				echo 'youlaboom';
 			}
 
 	endif; // The if ( 0 !== twentyseventeen_panel_count() ) ends here.
